@@ -11,7 +11,7 @@
     align-items: center
 }
 
-.footer__links a {
+.footer_links a {
     position: relative;
     display: inline-block;
     color: #000000 !important;
@@ -21,7 +21,7 @@
     outline: 0
 }
 
-.footer__links a:after {
+.footer_links a:after {
     position: absolute;
     top: 100%;
     left: 0;
@@ -38,7 +38,7 @@
     transform: translateY(-5px)
 }
 
-.footer__links a:focus:after, .footer__links a:hover:after {
+.footer_links a:focus:after, .footer_links a:hover:after {
     height: 2px;
     border-radius: 3px;
     opacity: 1;
@@ -46,13 +46,13 @@
     transform: translateY(0)
 }
 
-.footer__links a .text {
+.footer_links a .text {
     font-size: .9rem;
     display: none;
     letter-spacing: 1px
 }
 
-.footer__links img {
+.footer_links img {
     display: inline;
     width: 22px;
     background: none;

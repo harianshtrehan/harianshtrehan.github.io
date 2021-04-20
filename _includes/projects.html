@@ -1,48 +1,46 @@
 <section class="section projects">
     <div class="section_title">Projects</div>
     <div class="section_content">
-        <div class="jobs">
-            {% for project in site.data.projects %}
-            <div class="project">
-                <div class="project_attribute">
-                    <div class="project_attribute_label">
-                        Name
-                    </div>
-                    <div class="project_attribute_value">
-                        {{project.name}}
-                    </div>
+        {% for project in site.data.projects %}
+        <div class="project">
+            <div class="project_attribute">
+                <div class="project_attribute_label">
+                    Name
                 </div>
-                <div class="project_attribute">
-                    <div class="project_attribute_label">
-                        Description
-                    </div>
-                    <div class="project_attribute_value">
-                        {{project.description}}
-                    </div>
+                <div class="project_attribute_value">
+                    {{project.name}}
                 </div>
-                <div class="project_attribute">
-                    <div class="project_attribute_label">
-                        Key Result Areas
-                    </div>
-                    <div class="project_attribute_value">
-                        <ul>
-                            {% for point in project.kra %}
-                            <li>{{point.pt}}</li>
-                            {% endfor %}
-                        </ul>
-                    </div>
+            </div>
+            <div class="project_attribute">
+                <div class="project_attribute_label">
+                    Description
                 </div>
-                <div class="project_attribute">
-                    <div class="project_attribute_label">
-                        Technologies Used
-                    </div>
-                    <div class="project_attribute_value">
-                        <ul>
-                            {% for point in project.used %}
-                            <li>{{point}}</li>
-                            {% endfor %}
-                        </ul>
-                    </div>
+                <div class="project_attribute_value">
+                    {{project.description}}
+                </div>
+            </div>
+            <div class="project_attribute">
+                <div class="project_attribute_label">
+                    Key Result Areas
+                </div>
+                <div class="project_attribute_value">
+                    <ul>
+                        {% for point in project.kra %}
+                        <li>{{point.pt}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="project_attribute">
+                <div class="project_attribute_label">
+                    Technologies Used
+                </div>
+                <div class="project_attribute_value">
+                    <ul>
+                        {% for point in project.used %}
+                        <li>{{point}}</li>
+                        {% endfor %}
+                    </ul>
                 </div>
             </div>
             <br>
