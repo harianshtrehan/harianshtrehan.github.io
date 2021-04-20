@@ -14,10 +14,10 @@
 .footer__links a {
     position: relative;
     display: inline-block;
-    color: #007bff !important;
+    color: #000000 !important;
     text-transform: uppercase;
     font-weight: 700;
-    margin: 0 15px;
+    margin: 0 5px;
     outline: 0
 }
 
@@ -27,7 +27,7 @@
     left: 0;
     width: 100%;
     height: 1px;
-    background: #007bff;
+    background: #000000;
     content: '';
     opacity: 0;
     -webkit-transition: height .3s, opacity .3s, -webkit-transform .3s;
@@ -48,11 +48,12 @@
 
 .footer__links a .text {
     font-size: .9rem;
-    display: inline;
+    display: none;
     letter-spacing: 1px
 }
 
 .footer__links img {
-    display: none;
-    width: 22px
+    display: inline;
+    width: 22px;
+    background: none;
 }
