@@ -1,30 +1,36 @@
- # Site settings
-name: Hariansh Trehan
-title: Hariansh Trehan | Technical Lead Engineer
-description: ''
-url: https://harianshtrehan.github.io
-baseurl: ''
-email: harianshtrehan@gmail.com
-#cover: https://harianshtrehan.github.io/img/og.png
-#logo: https://harianshtrehan.github.io/img/emojis/technologist.png
-resume: https://harianshtrehan.github.io/resume.pdf
-social:
-  - title: gmail
-    url: mailto:harianshtrehan@gmail.com
-  - title: twitter
-    url: https://twitter.com/TrehanHariansh
-  - title: instagram
-    url: https://instagram.com/harianshtrehan
-  - title: github
-    url: https://github.com/harianshtrehan
-  - title: linkedin
-    url: https://in.linkedin.com/in/harianshtrehan
-  - title: whatsapp
-    url: https://wa.me/qr/QANVL62W6D6QM1
+# Site settings
+name :        Hariansh Trehan
+title :       Hariansh Trehan | Technical Lead Engineer
+description : ''
+url :         https://harianshtrehan.github.io
+baseurl :     ''
+email :       harianshtrehan@gmail.com
+cover :       https://harianshtrehan.github.io/img/logo.png
+logo :        https://harianshtrehan.github.io/img/logo.png
+resume :      https://harianshtrehan.github.io/resume.pdf
+social :
+  -
+    title : gmail
+    url :   mailto:harianshtrehan@gmail.com
+  -
+    title : twitter
+    url :   https://twitter.com/TrehanHariansh
+  -
+    title : instagram
+    url :   https://instagram.com/harianshtrehan
+  -
+    title : github
+    url :   https://github.com/harianshtrehan
+  -
+    title : linkedin
+    url :   https://in.linkedin.com/in/harianshtrehan
+  -
+    title : whatsapp
+    url :   https://wa.me/qr/QANVL62W6D6QM1
 
 # Build settings
-markdown: kramdown
+markdown :    kramdown
 
-exclude:
+exclude :
   - 'README.md'
 

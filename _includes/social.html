@@ -1,0 +1,8 @@
+<div class="footer__links">
+    {% for link in site.social %}
+    <a href="{{link.url}}" target="_blank" title="{{link.title}}">
+        <span class="text">{{link.title}}</span>
+        <img alt="{{link.title}}" src="{{site.baseurl}}/img/social/{{link.title}}.svg">
+    </a>
+    {% endfor %}
+</div>
