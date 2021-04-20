@@ -1,9 +1,9 @@
 -
-  type : languages
+  type : Languages
   value : [ JAVA, SQL, JavaScript (ES6), HTML, CSS ]
 
 -
-  type : frameworks
+  type : Frameworks
   value : [ Spring, Jekyll ]
 
 -

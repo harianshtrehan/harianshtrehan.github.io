@@ -1,17 +1,15 @@
-<section class="section experience">
-    <div class="section__title">Skills</div>
-    <div class="section__content">
+<section class="section skills">
+    <div class="section_title">Skills</div>
+    <div class="section_content">
         <div class="skills">
             {% for skill in site.data.skills %}
-            <div class="skill">
-                <h3>{{skill.type}}</h3>
-                <div class="skill">
-                    <ul>
-                        {% for skillItem in skill.value %}
-                        <li>{{skillItem}}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
+            <div class="skill_category">
+                <div class="skill_category_label">{{skill.type}}</div>
+                <ul class="skill_items">
+                    {% for skillItem in skill.value %}
+                    <li class="skill_item">{{skillItem}}</li>
+                    {% endfor %}
+                </ul>
             </div>
             {% endfor %}
         </div>
