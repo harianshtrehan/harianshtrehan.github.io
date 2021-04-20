@@ -1,0 +1,11 @@
+-
+  type : languages
+  value : [ JAVA, SQL, JavaScript (ES6), HTML, CSS ]
+
+-
+  type : frameworks
+  value : [ Spring, Jekyll ]
+
+-
+  type : Database
+  value : [ Mysql, MongoDb, MsSql ]

@@ -5,16 +5,19 @@
             {% for job in site.data.experience %}
             <div class="job">
                 <div class="time-place">
-                    <div class="job__company">
+                    <div class="job_company">
                         <a href="{{job.url}}" target="_blank">{{job.company}}</a>
                     </div>
-                    <div class="job__time">{{job.time}}</div>
+                    <div class="job_time">{{job.time}}</div>
                 </div>
-                <div class="job__position">{{job.position}}</div>
+                <div class="job_position">{{job.position}}</div>
+                <br>
             </div>
             {% endfor %}
         </div>
 
-        <a class="arrow-link" href="{{site.resume}}" target="_blank">View My Resume</a>
+        <div>
+            <a class="arrow-link" href="{{site.resume}}" target="_blank">View My Resume</a>
+        </div>
     </div>
 </section>

@@ -1,0 +1,19 @@
+<section class="section experience">
+    <div class="section__title">Skills</div>
+    <div class="section__content">
+        <div class="skills">
+            {% for skill in site.data.skills %}
+            <div class="skill">
+                <h3>{{skill.type}}</h3>
+                <div class="skill">
+                    <ul>
+                        {% for skillItem in skill.value %}
+                        <li>{{skillItem}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
