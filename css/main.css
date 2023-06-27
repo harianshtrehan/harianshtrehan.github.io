@@ -1,9 +1,11 @@
 @import "footer.css";
 
 body {
-    /*background-image: url(../img/background.jpeg);*/
+    /*
+    background-image: url(../img/background.jpeg);
     background-image: linear-gradient(#150933, #8e5151);
     background-attachment: fixed;
+    */
 }
 
 body, html {
