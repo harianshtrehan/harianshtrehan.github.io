@@ -13,20 +13,20 @@ social :
     title : gmail
     url :   mailto:harianshtrehan@gmail.com
   -
+    title : linkedin
+    url :   https://in.linkedin.com/in/harianshtrehan
+  -
+    title : github
+    url :   https://github.com/harianshtrehan
+  -
     title : twitter
     url :   https://twitter.com/TrehanHariansh
   -
     title : instagram
     url :   https://instagram.com/harianshtrehan
-  -
-    title : github
-    url :   https://github.com/harianshtrehan
-  -
-    title : linkedin
-    url :   https://in.linkedin.com/in/harianshtrehan
-  -
-    title : whatsapp
-    url :   https://wa.me/qr/QANVL62W6D6QM1
+#  -
+#    title : whatsapp
+#    url :   https://wa.me/qr/QANVL62W6D6QM1
 
 # Build settings
 markdown :    kramdown
