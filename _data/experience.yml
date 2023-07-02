@@ -2,26 +2,29 @@
   url: https://www.go-yubi.com/
   time: June 2022 - Present
   position: Lead Engineer
-  logo: yubi-logo.svg
+  logo: yubi-logo
 
 - company: Airtel
   url: https://www.airtel.in/
   time: April 2021 - June 2022
   position: Technical Lead Engineer
-  logo :
+  logo: bharti-airtel-logo
 
 - company: Policybazaar
   url: https://www.policybazaar.com/
   time: Nov 2019 - March 2021
   position: Senior Technical Associate
+  logo: policybazaar-logo
 
 - company: Nagarro
   url: https://www.nagarro.com/en/
   time: May 2018 - Oct 2019
   position: Senior Associate Technology
+  logo: nagarro-logo
 
 - company: Libsys
   url: https://www.libsys.co.in/
   time: July 2015 - April 2018
   position: Software Developer
+  logo: libsys-logo
 
