@@ -1,5 +1,5 @@
 - type: Languages
-  value: [ JAVA, C, ROR, JavaScript (ES6), HTML, CSS ]
+  value: [ JAVA, C, Ruby on Rails, JavaScript (ES6), HTML, CSS ]
 
 - type: Frameworks
   value: [ Spring, Jekyll, Rails ]
@@ -11,4 +11,4 @@
   value: [ Kakfa, SQS ]
 
 - type: Other Technologies
-  value: [ AWS, Jasper, Docker ]
+  value: [ AWS, Jasper, Docker, Kibana, Grifana, InfluxDb, XML ]
