@@ -1,0 +1,58 @@
+- name : Payment Gateway
+  description : Project handles the payment gateway functionality for all the projects in the organisation. This system is based on microservice based architecture and serves as the backbone for all the payments done on multiple applications and websites govern and developed by organisation.
+  kra :
+  - pt : Involved in performance tuning of logging and auditing service in multiple microservcies.
+  used : [ JAVA, Springboot, MongoDb, Kafka, Kibana, Grifana, InfluxDb ]
+
+- name : Core Service
+  description : Project handles the core functionality and act as a backbone to other projects. This system provides common functionality services consumed by various insurance journeys within in their product.
+  kra :
+  - pt : Accountable for design, architecture, development and unit testing of new document module.
+  - pt : Responsible for Design and development of various services in other modules.
+  - pt : Involved in database optimisation and performance tuning of the project.
+  - pt : Continuous Integration implementation of the project over Jenkins.
+  used : [ JAVA, Spring MVC, MsSql, MongoDb, S3, SQS, Lambda ]
+
+- name : Online and Mobile Ordering System
+  description : Project involved the development of restaurant ordering solution for client’s business. This is a system that provides the end-users to digitally order food from mobile or website, apply different coupons, get suggestions based on user preferences.
+  kra :
+  - pt : Accountable for design, architecture, development and unit testing of multi-delivery failover functionality module.
+  - pt : Involved in design and architecture process for various modules.
+  - pt : Handled coding and unit testing, and also involved in database handling.
+  - pt : Documented the technical as well as design approaches.
+  used : [ JAVA, Springboot, MySql, XML, RabbitMQ, Kibana ]
+
+- name : Content Management System
+  description : Project involved the development of website solution for content management of client’s business website. This is a system that provides the end-users to create websites for non-profit organizations with minimum turnaround time.
+  kra :
+  - pt : Created whole project from scratch, gathered requirement from client and conducted requirement analysis.
+  - pt : Accountable for development of web service layer, and involved in database handling.
+  used : [ JAVA, Springboot, MySql, MongoDb, JSON, XML ]
+
+- name : Omni Channel
+  description : Project involved development of applications providing services to customers to buy products. It helps the user to keep track of daily sales activities and open orders in hand. It also helps in creating orders, maintaining accounts and contacts, and shopping cart.
+  kra :
+  - pt : Development of multiple modules like Pricing, Supplier, Stock, User, Warehousing.
+  - pt : Process planning for implementation.
+  - pt : Involved in database handling and design.
+  - pt : Responsible for documentation of technical and design approaches.
+  used : [ JAVA, Spring MVC, Jersey, MongoDb ]
+
+- name : Customer Relationship Management
+  description : Project involved development of applications providing services to manage and analyse customer interactions and data throughout the customer lifecycle with the client organization, with the goal of improving business relationships with customers.
+  kra :
+  - pt : Been part of the team from very early phase of development.
+  - pt : Utility for creation of dynamic jasper reports with UI support for invoices.
+  - pt : Developed screens for multiple modules like Invoice, Payment, Email.
+  - pt : Email integration with the project and contact book management.
+  - pt : Accountable for generation of dynamic data reports downloadable in multiple formats.
+  - pt : Database indexing and various trigger functions handling
+  used : [ JAVA, EJB, REST, Jersey, MySql ]
+
+- name : LIBSYS
+  description : A modular web-based library automation system with features like acquisition, cataloguing, circulation, indexing and other modules.
+  kra :
+  - pt : Involved in creation of smaller screens for data entering.
+  - pt : Accountable for load balancing for report downloads.
+  - pt : Worked on convert and store information from bibliographic data.
+  used : [ JAVA, EJB, MySql, JasperReports ]
