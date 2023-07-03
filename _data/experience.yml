@@ -3,28 +3,62 @@
   time: June 2022 - Present
   position: Lead Engineer
   logo: yubi-logo
+  kra:
+    - pt: Led team of 8 developers and rolled out CLM2 module for Yubi Co.Lend application.
+    - pt: Onboarded SBI as client and launch project to adhere with SBI and government regulations.
+    - pt: Simplified process in team for code merges and brought metrics for platform improvement and faster code releases with reduced bug count.
+    - pt: Built features covering design and development of business logic, persistence layer, database implementation and debugging production issues.
+    - pt: Integration of forest admin on system to reduce developer on-call support.
+
 
 - company: Airtel
   url: https://www.airtel.in/
   time: April 2021 - June 2022
   position: Technical Lead Engineer
   logo: bharti-airtel-logo
+  kra:
+    - pt: Lead a team and built OMS application for payment related order for Airtel Thanks APP and web application.
+    - pt: Design and built layer for webhook and callback mechanism in application using Kafka queues.
+    - pt: Collaborated with stakeholders to convert business requirements into technical solutions.
+    - pt: Collaborated with team to launch new Airtel Thanks App design revamp.
+    - pt: Design and programmed integrations with payment gateways like PayU, Razorpay, Juspay.
+    - pt: Involved in optimisation of the payment gateway routing algorithm for high success rates and handle 2 million transaction per day.
+    - pt: Participated in multiple interview drives to onboard best talent for organisation
 
 - company: Policybazaar
   url: https://www.policybazaar.com/
   time: Nov 2019 - March 2021
   position: Senior Technical Associate
   logo: policybazaar-logo
+  kra:
+    - pt: Collaborated with core team as backend associate to run POC for new tools and technology to provide optimised solutions, that can be consumed by other LOBs in organisation.
+    - pt: Involved in database optimisation and performance tuning of the project.
+    - pt: Design and developed document module based on CDN implementation using AWS S3.
+    - pt: Built continuous integration and deployment pipeline with Jenkins for business-critical fraud evaluation, regression testing and tackle manual deployments.
+
 
 - company: Nagarro
   url: https://www.nagarro.com/en/
   time: May 2018 - Oct 2019
   position: Senior Associate Technology
   logo: nagarro-logo
+  kra:
+    - pt: Collaborated on a team as backend consultant to launch web and mobile ordering application for Greenwich and Chowking food e-commerce solutions.
+    - pt: Built feature for multi-delivery fail over and last mile delivery functionality to reduce sales drop and increase revenue.
+    - pt: Collaborated with team for integration of different types of coupons in application.
+    - pt: Documented the technical as well as design approaches.
+
 
 - company: Libsys
   url: https://www.libsys.co.in/
   time: July 2015 - April 2018
   position: Software Developer
   logo: libsys-logo
+  kra:
+    - pt: Built CMS application from scratch to provide website creation solution, worked on features covering design and development of business logic, persistence layer, database implementation and debugging production issues.
+    - pt: Design and build data driven workflow and modules for CRM application, to increase sales team productivity. Modules worked included Invoice, Payment, Email.
+    - pt: Collaborated with team for integration of CRM with Libsys’s e-commerce website and internal search engine.
+    - pt: Built Utility for dynamic report generation using Jasper, which reduced huge effort for client specific jasper creation.
+    - pt: Built modules like Pricing, Supplier, Stock, User, Warehousing for Libsys’s e-commerce website.
+    - pt: Development using RFID’s tags to convert and store information from bibliographic data.
 
