@@ -9,16 +9,21 @@
                         <img width="30" height="30" src="{{site.baseurl}}/img/companies/{{job.logo}}.svg">
                         <a href="{{job.url}}" target="_blank">{{job.company}}</a>
                     </div>
-                    <div class ="job_kra">
+                    <div class="job_time">{{job.time}}</div>
+                </div>
+                <div class="job_position">{{job.position}}</div>
+                <div class="job_kra">
+                    <div class="job_kra_label">
+                        Some Highlights
+                    </div>
+                    <div class="job_kra_pts">
                         <ul>
                             {% for point in job.kra %}
                             <li>{{point.pt}}</li>
                             {% endfor %}
                         </ul>
                     </div>
-                    <div class="job_time">{{job.time}}</div>
                 </div>
-                <div class="job_position">{{job.position}}</div>
                 <br>
             </div>
             {% endfor %}
