@@ -1,14 +1,14 @@
-- company: Yubi {formely CredAvenue Pvt. Ltd.}
-  url: https://www.go-yubi.com/
-  time: June 2022 - Present
-  position: Lead Engineer
-  logo: yubi-logo
-  kra:
-    - pt: Led team of 8 developers and rolled out CLM2 module for Yubi Co.Lend application.
-    - pt: Onboarded SBI as client and launch project to adhere with SBI and government regulations.
-    - pt: Simplified process in team for code merges and brought metrics for platform improvement and faster code releases with reduced bug count.
-    - pt: Built features covering design and development of business logic, persistence layer, database implementation and debugging production issues.
-    - pt: Integration of forest admin on system to reduce developer on-call support.
+#- company: Yubi {formely CredAvenue Pvt. Ltd.}
+#  url: https://www.go-yubi.com/
+#  time: June 2022 - Present
+#  position: Lead Engineer
+#  logo: yubi-logo
+#  kra:
+#    - pt: Led team of 8 developers and rolled out CLM2 module for Yubi Co.Lend application.
+#    - pt: Onboarded SBI as client and launch project to adhere with SBI and government regulations.
+#    - pt: Simplified process in team for code merges and brought metrics for platform improvement and faster code releases with reduced bug count.
+#    - pt: Built features covering design and development of business logic, persistence layer, database implementation and debugging production issues.
+#    - pt: Integration of forest admin on system to reduce developer on-call support.
 
 
 - company: Airtel
